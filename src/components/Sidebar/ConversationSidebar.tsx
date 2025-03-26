@@ -98,8 +98,8 @@ const ConversationSidebar: React.FC<ConversationSidebarProps> = ({
         )}
       </div>
 
-      {/* Footer - Updated to match chat input container height */}
-      <div className="border-t border-sidebar-border px-4 py-3">
+      {/* Footer */}
+      <div className="border-t border-sidebar-border p-4">
         <div className="flex items-center gap-3">
           <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary">
             <svg
